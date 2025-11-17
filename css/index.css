@@ -47,28 +47,42 @@ header {
     max-width: 6rem;
 }
 
+
 .nav-list {
     list-style-type: none;
     display: flex;
     gap: 2rem;
+    padding: 1.3rem;
 }
 
 .nav-list li a {
     text-decoration: none;
-    color: #2b4e9d;
-   
+    color: black;
 }
 
 .nav-animales {  
     height: 2.5rem;
+    visibility: visible;
 }
 
 .nav-busca { 
     height: 2.5rem;
+    visibility: visible;
 }
 
 .nav-adopcion { 
     height: 2.5rem;
+    visibility: visible;
+}
+.nav-adopcion2{
+    visibility: hidden;
+}
+.nav-animales2{
+    visibility: hidden;
+}
+
+.nav-busca2{
+    visibility: hidden;
 }
 
 .abrir-menu,
@@ -80,6 +94,10 @@ header {
     .abrir-menu,
     .cerrar-menu {
         display: block;
+        border: 0;
+        font-size: 1.25rem;
+        background-color: transparent;
+        cursor: pointer;
     }
 
     .nav {
@@ -95,6 +113,7 @@ header {
         bottom: 0;
         padding: 2rem;
         box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .5);
+        background-color: white;
     }
 
     .nav.visible {
@@ -102,11 +121,41 @@ header {
         visibility: visible;
     }
     
-    .nav-list {
+     .nav-list {
         flex-direction: column;
         align-items: end;
-        color: #2b4e9d;
+        color: black;
+        align-items: right;
+        padding: 2rem;
     }
+
+    .nav-list :hover{
+        color: orange;
+    }
+
+    .nav-adopcion2{
+        visibility:visible;
+    }
+    .nav-animales2{
+        visibility: visible;
+    }
+
+    .nav-busca2{
+        visibility: visible;
+    }
+
+    .nav-animales {  
+        visibility: hidden;
+    }
+
+    .nav-busca { 
+        visibility: hidden;
+    }
+
+    .nav-adopcion { 
+        visibility: hidden;
+    }
+
 }
 
 .titulo {
