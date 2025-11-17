@@ -1,3 +1,4 @@
+
 h1{
     text-align: center;
     font-family: "Montserrat", sans-serif;
@@ -10,8 +11,10 @@ p{
     text-align: center;
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 200;
+    font-weight: 400;
+    line-height: 1.7;
     font-style: normal;
+    font-size: 1.1rem;
 }
 
 * {
@@ -19,18 +22,20 @@ p{
     padding: 0;
     box-sizing: border-box;
     font-family: "Montserrat", sans-serif;
+    background-color: none;
 }
 
 header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
 
 }
 
 .logo {
-    max-width: 5rem;
+    max-width: 6rem;
 }
 
 .nav-list {
@@ -81,4 +86,36 @@ header {
         align-items: end;
         color: #2b4e9d;
     }
+}
+
+.titulo {
+    padding-left: 2rem;
+    text-align: left;
+    color: #2b4e9d;
+}
+.texto {
+    padding: 2rem;
+    text-align: left;
+}
+
+.animales {
+    max-width: 25rem;
+    margin-bottom: 0%;
+}
+
+.eslogan {
+    padding: 2rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    text-align: center;           
+    background-color: #2b4e9d;       
+    align-items: center;
+    color: white;
+    
+}
+
+.adopta {
+    max-width: 95%;
+    padding: 2rem;
+    align-content: center;
 }
