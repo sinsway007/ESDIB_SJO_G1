@@ -50,6 +50,18 @@ header {
    
 }
 
+.nav-animales {  
+    height: 2.5rem;
+}
+
+.nav-busca { 
+    height: 2.5rem;
+}
+
+.nav-adopcion { 
+    height: 2.5rem;
+}
+
 .abrir-menu,
 .cerrar-menu{
     display: none;
@@ -93,6 +105,7 @@ header {
     text-align: left;
     color: #2b4e9d;
 }
+
 .texto {
     padding: 2rem;
     text-align: left;
@@ -110,12 +123,12 @@ header {
     text-align: center;           
     background-color: #2b4e9d;       
     align-items: center;
-    color: white;
-    
+    color: white; 
 }
 
 .adopta {
-    max-width: 95%;
-    padding: 2rem;
-    align-content: center;
+    max-width: 30rem;
+    padding: 1rem;
+    padding-bottom: 3rem;
+    align-items: center;
 }
