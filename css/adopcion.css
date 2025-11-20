@@ -1,3 +1,5 @@
+/* Tipografias y textos */
+
 h1{
     text-align: center;
     font-family: "Montserrat", sans-serif;
@@ -16,6 +18,7 @@ p{
     font-size: 1.1rem;
 }
 
+/* Fin de Tipografias y textos */
 
 * {
     margin: 0;
@@ -24,6 +27,10 @@ p{
     font-family: "Montserrat", sans-serif;
     background-color: none;
 }
+
+/* Movil */
+
+/* Navbar*/
 
 header {
     display: flex;
@@ -79,7 +86,27 @@ header {
     display: none;
 }
 
+/* Fin de Navbar*/
+
+/* Contenido Adopcion Movil */
+
+
+
+
+
+
+
+/* Fin Contenido Adopcion Movil */
+
+/* Fin de Movil */
+
+
+/* Escritorio */
+
 @media screen and (max-width: 550px) {
+
+    /* Navbar Escritorio */
+    
     .abrir-menu,
     .cerrar-menu {
         display: block;
@@ -145,4 +172,16 @@ header {
         visibility: hidden;
     }
 
+    /* Fin de Navbar Escritorio */
+
+
+    /* Contenido Escritorio */
+
+
+
+
+
+    /* Fin de Contenido Escritorio */
 }
+
+/* Fin Escritorio */
