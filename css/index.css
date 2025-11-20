@@ -107,7 +107,12 @@ header {
 /* Contenido Index Movil */
 
 .titulo {
+    font-family: "Anton", sans-serif;
+    font-weight: 100;
+    font-size: 4rem;
+    font-style: normal;
     padding-left: 2rem;
+    line-height: 4rem;
     text-align: left;
     color: #2b4e9d;
 }
@@ -118,31 +123,35 @@ header {
 }
 
 .animales {
-    max-width: 25rem;
+    max-width: 35rem;
 }
 
 .eslogan {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding: 2rem;
+
     text-align: center;           
     background-color: #2b4e9d;       
     align-items: center;
-    color: white; 
+    color: white;
+}
+
+.eslogan2 {
+    font-family: "Anton", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 3.5rem;
+    line-height: 4rem;
 }
 
 .adopta {
     max-width: 25rem;
-    padding: 1rem;
-    padding-bottom: 3rem;
+    padding: 2rem;
+    padding-bottom: 5rem;
     align-items: center;
 }
 
-.mascotas {
-   display:flex
-}
-
 .mascotas img {
-    max-width: 25rem;
+    max-width: 20rem;
     border-radius: 4rem;
     margin: 2rem;
     justify-content: center;
@@ -254,57 +263,5 @@ header {
 
 }
 
-<<<<<<< HEAD
     /* Fin Escritorio */
-=======
-.titulo {
-    font-family: "Anton", sans-serif;
-    font-weight: 100;
-    font-size: 4rem;
-    font-style: normal;
-    padding-left: 2rem;
-    line-height: 4rem;
-    text-align: left;
-    color: #2b4e9d;
-}
 
-.texto {
-    padding: 2rem;
-    text-align: left;
-}
-
-.animales {
-    max-width: 35rem;
-}
-
-.eslogan {
-    padding: 2rem;
-
-    text-align: center;           
-    background-color: #2b4e9d;       
-    align-items: center;
-    color: white;
-}
-
-.eslogan2 {
-    font-family: "Anton", sans-serif;
-    font-weight: 100;
-    font-style: normal;
-    font-size: 3.5rem;
-    line-height: 4rem;
-}
-
-.adopta {
-    max-width: 25rem;
-    padding: 2rem;
-    padding-bottom: 5rem;
-    align-items: center;
-}
-
-.mascotas img {
-    max-width: 20rem;
-    border-radius: 4rem;
-    margin: 2rem;
-    justify-content: center;
-}
->>>>>>> e0b450f566c9643fbe31fef97c516b943bbd965e
