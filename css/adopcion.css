@@ -90,6 +90,49 @@ header {
 
 /* Contenido Adopcion Movil */
 
+.a-quien-adoptar {
+    margin-top: 3rem;
+}
+
+.a-quien-adoptar h1 {
+    font-size: 1.1rem;
+    font-weight: 750;
+color:#2b4e9d;
+}
+
+.seleccion-animal {
+    display: flex;
+    flex-direction: column;
+    margin:auto;
+    justify-content: center;
+    align-items: center;
+    gap: 2.3rem;
+    width: 100%;
+    height: auto;
+    margin-top: 2rem;
+}
+
+.circulos {
+    width: 55%;
+  height: auto;
+}
+
+.img-btn {
+    border: none;
+    padding: 0;
+    background: transparent;
+    cursor: pointer;
+}
+
+.img-btn img { /* tamaño opcional */
+    filter: drop-shadow(0 4px 6px rgba(0,0,0,0.4));
+    transition: 0.2s;
+}
+
+.img-btn img:hover {
+    filter: drop-shadow(0 8px 12px rgba(0,0,0,0.45));
+    transform: scale(1.03);
+}
 
 
 
@@ -184,4 +227,28 @@ header {
     /* Fin de Contenido Escritorio */
 }
 
+@media (min-width: 600px) {
+  .seleccion-animal {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .circulos {
+    width: 75%;
+  height: auto;
+  }
+
+  .a-quien-adoptar h1 {
+    font-size: 1.5rem;
+}
+}
+
+@media (min-width: 800px) {
+
+  .a-quien-adoptar h1 {
+    font-size: 1.6rem;
+}
+}
+
 /* Fin Escritorio */
+
