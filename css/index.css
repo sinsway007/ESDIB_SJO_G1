@@ -128,23 +128,25 @@ header {
 
 .eslogan {
     padding: 2rem;
-
+    font-family: "Anton", sans-serif;
+    font-size: 4rem;
     text-align: center;           
     background-color: #2b4e9d;       
-    align-items: center;
     color: white;
-}
-
-.eslogan2 {
-    font-family: "Anton", sans-serif;
-    font-weight: 100;
-    font-style: normal;
-    font-size: 3.5rem;
     line-height: 4rem;
 }
 
+.eslogan2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1rem;
+    padding: 2rem;
+
+}
+
 .adopta {
-    max-width: 25rem;
+    max-width: 33rem;
     padding: 2rem;
     padding-bottom: 5rem;
     align-items: center;
@@ -155,6 +157,8 @@ header {
     border-radius: 4rem;
     margin: 2rem;
     justify-content: center;
+    filter: drop-shadow(0 4px 6px rgba(0,0,0,0.4));
+    transition: 0.2s;
 }
 
 /* Fin de Contenido Index Movil */
@@ -189,7 +193,7 @@ header {
         position: absolute;
         top: 0;
         right: 0;
-        bottom: 20rem;
+        bottom: 0rem;
         padding: 1rem;
         padding-right: 2rem;
         box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .5);
@@ -215,25 +219,25 @@ header {
 
     .nav-adopcion2{
         visibility:visible;
-        font-family: "Anton", sans-serif;
+        font-family: "Montserrat", sans-serif;
         font-style: normal;
-        font-size: 2rem;
+        font-size: 1rem;
         text-align: right;
         
     }
     .nav-animales2{
         visibility: visible;
-        font-family: "Anton", sans-serif;
+        font-family: "Montserrat", sans-serif;
         font-style: normal;
-        font-size: 2rem;
+        font-size: 1rem;
         text-align: center;
     }
 
     .nav-busca2{
         visibility: visible;
-        font-family: "Anton", sans-serif;
+        font-family: "Montserrat", sans-serif;
         font-style: normal;
-        font-size: 2rem;
+        font-size: 1rem;
         text-align: center;
     }
 
