@@ -127,38 +127,45 @@ header {
 }
 
 .eslogan {
-    padding: 2rem;
+    padding: 1rem;
     font-family: "Anton", sans-serif;
-    font-size: 4rem;
+    font-size: 5rem;
     text-align: center;           
     background-color: #2b4e9d;       
     color: white;
-    line-height: 4rem;
+    line-height: 5rem;
 }
 
 .eslogan2 {
     font-family: "Montserrat", sans-serif;
-    font-weight: 500;
     font-style: normal;
     font-size: 1rem;
     padding: 2rem;
+    background-color: #2b4e9d;       
+    color: white;
 
 }
 
 .adopta {
-    max-width: 33rem;
+    max-width: 35rem;
     padding: 2rem;
-    padding-bottom: 5rem;
-    align-items: center;
 }
 
-.mascotas img {
-    max-width: 20rem;
+.adopta img:hover {
+    transform: scale(1.03); 
+}
+
+.mascotas-img {
+    max-width: 25rem;
     border-radius: 4rem;
-    margin: 2rem;
-    justify-content: center;
+    margin: 3rem;
     filter: drop-shadow(0 4px 6px rgba(0,0,0,0.4));
     transition: 0.2s;
+}
+
+.mascotas-img img:hover {
+    filter: drop-shadow(0 8px 12px rgba(0,0,0,0.45));
+    transform: scale(1.03); 
 }
 
 /* Fin de Contenido Index Movil */
