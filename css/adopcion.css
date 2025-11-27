@@ -38,6 +38,7 @@ header {
     justify-content: space-between;
     padding-left: 2rem;
     padding-right: 2rem;
+    z-index: 10;
 
 }
 
@@ -110,11 +111,12 @@ color:#2b4e9d;
     width: 100%;
     height: auto;
     margin-top: 2rem;
+    z-index: 1;
 }
 
 .circulos {
     width: 55%;
-  height: auto;
+    height: auto;
 }
 
 .img-btn {
@@ -122,11 +124,13 @@ color:#2b4e9d;
     padding: 0;
     background: transparent;
     cursor: pointer;
+    z-index: -1;
 }
 
 .img-btn img { /* tamaño opcional */
     filter: drop-shadow(0 4px 6px rgba(0,0,0,0.4));
     transition: 0.2s;
+    
 }
 
 .img-btn img:hover {
