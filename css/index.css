@@ -124,6 +124,8 @@ header {
 
 .animales {
     max-width: 35rem;
+    position: relative;
+    top: 4px;
 }
 
 .eslogan {
@@ -146,22 +148,44 @@ header {
 
 }
 
+
 .adopta {
-    max-width: 35rem;
-    padding: 2rem;
+    display: flex;
+    justify-content: center; 
+    margin: 20px 0;        
 }
+
+.adopta img {
+    max-width: 300px;
+ }
 
 .adopta img:hover {
     transform: scale(1.03); 
 }
 
-.mascotas-img {
-    max-width: 25rem;
+
+
+.mascotas {
+    display: flex;
+    flex-direction: column; /* Columna */
+    align-items: center;    /* Centra horizontalmente */
+    gap: 5px;              /* Espacio entre imágenes */
+    margin-top: 20px;
+}
+
+.mascota-img {
+    width: 300px;  
+     max-width: 25rem;
     border-radius: 4rem;
     margin: 3rem;
     filter: drop-shadow(0 4px 6px rgba(0,0,0,0.4));
-    transition: 0.2s;
+    transition: 0.2s;   
 }
+
+
+
+
+
 
 .mascotas-img img:hover {
     filter: drop-shadow(0 8px 12px rgba(0,0,0,0.45));
