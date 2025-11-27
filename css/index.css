@@ -1,4 +1,8 @@
 
+body{
+    overflow-x: hidden;
+}
+
 /* Tipografias y textos */
 h1{
     text-align: center;
@@ -126,6 +130,7 @@ header {
     max-width: 35rem;
     position: relative;
     top: 4px;
+    z-index: 1;
 }
 
 .eslogan {
@@ -136,6 +141,7 @@ header {
     background-color: #2b4e9d;       
     color: white;
     line-height: 5rem;
+    z-index: 2;
 }
 
 .eslogan2 {
@@ -147,7 +153,6 @@ header {
     color: white;
 
 }
-
 
 .adopta {
     display: flex;
@@ -163,29 +168,21 @@ header {
     transform: scale(1.03); 
 }
 
-
-
 .mascotas {
     display: flex;
-    flex-direction: column; /* Columna */
-    align-items: center;    /* Centra horizontalmente */
-    gap: 5px;              /* Espacio entre imágenes */
-    margin-top: 20px;
+    flex-direction: column; 
+    align-items: center;   
+    gap: 5px;              
 }
 
 .mascota-img {
-    width: 300px;  
+    width: 350px;  
      max-width: 25rem;
     border-radius: 4rem;
-    margin: 3rem;
+    margin: 1rem;
     filter: drop-shadow(0 4px 6px rgba(0,0,0,0.4));
     transition: 0.2s;   
 }
-
-
-
-
-
 
 .mascotas-img img:hover {
     filter: drop-shadow(0 8px 12px rgba(0,0,0,0.45));
