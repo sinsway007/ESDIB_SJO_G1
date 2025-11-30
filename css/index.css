@@ -129,9 +129,12 @@ header {
 
 .animales {
     max-width: 35rem;
-    position: relative;
+    position:relative;
     top: 5px;
     z-index: -1;
+    object-fit: cover;
+    display: block;
+
 }
 
 .eslogan h2{
@@ -182,7 +185,7 @@ header {
     gap: 5px;              
 }
 
-.mascota-img {
+.mascotas img {
     width: 350px;  
     max-width: 25rem;
     border-radius: 4rem;
@@ -191,15 +194,23 @@ header {
     transition: 0.2s;   
 }
 
-.mascotas-img img:hover {
-    filter: drop-shadow(0 8px 12px rgba(0,0,0,0.45));
-    transform: scale(1.03); 
-}
-
 .redes-sociales {
     display: flex;
-    justify-content: center;
+    justify-content: right;
     height: 3rem;
+    margin-right: 2rem;
+}
+
+.logo-redes {
+    display: flex;
+    justify-content: left;
+    height: 3rem;
+    margin-right: auto;
+    margin-left: 2rem;
+}
+
+.mascotas img:hover {
+    transform: scale(1.03); 
 }
 
 /* Fin de Contenido Index Movil */
