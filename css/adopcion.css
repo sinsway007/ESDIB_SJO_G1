@@ -98,7 +98,7 @@ header {
 .a-quien-adoptar h1 {
     font-size: 1.1rem;
     font-weight: 750;
-color:#2b4e9d;
+color: #7ac6be;;
 }
 
 .seleccion-animal {
@@ -119,6 +119,8 @@ color:#2b4e9d;
     height: auto;
 }
 
+
+
 .img-btn {
     border: none;
     padding: 0;
@@ -130,12 +132,28 @@ color:#2b4e9d;
 .img-btn img { /* tamaño opcional */
     filter: drop-shadow(0 4px 6px rgba(0,0,0,0.4));
     transition: 0.2s;
-    
 }
 
 .img-btn img:hover {
-    filter: drop-shadow(0 8px 12px rgba(0,0,0,0.45));
     transform: scale(1.03);
+}
+
+footer {
+    margin-top: 4rem;
+}
+.redes-sociales {
+    display: flex;
+    justify-content: right;
+    height: 3rem;
+    margin-right: 2rem;
+}
+
+.logo-redes {
+    display: flex;
+    justify-content: left;
+    height: 3rem;
+    margin-right: auto;
+    margin-left: 2rem;
 }
 
 
