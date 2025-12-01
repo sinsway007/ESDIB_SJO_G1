@@ -150,9 +150,9 @@ header {
 
 
 .texto {
-   padding: 1.5rem;
+   padding: 2.5rem;
    text-align: left;
-   font-size: 0.9rem;
+   font-size: 1.1rem;
 }
 
 
@@ -175,35 +175,29 @@ header {
    z-index: -1;
 }
 
-
 .eslogan h2{
    font-size: 5rem;
 }
 
-
 .eslogan {
-   padding: rem;
+   padding: 2rem;
    font-family: "Anton", sans-serif;
    text-align: center;          
    background-color: #7ac6be;      
    color: white;
    line-height: 5rem;
    z-index: 2;
-   padding: 1rem;
+   padding: 2rem;
 }
-
 
 .eslogan2 {
    font-family: "Montserrat", sans-serif;
    font-style: normal;
    font-weight: 100%;
-   font-size: 1rem;   
-   color: #7ac6be;
+   font-size: 2.5rem;   
+   color: #000000;
    margin: 2rem;
-
-
 }
-
 
 .adopta {
    display: flex;
@@ -212,7 +206,6 @@ header {
    flex-wrap: wrap;
    width: 100%;
 }
-
 
 .adopta img {
    width: 100%;        /* Se adapta al contenedor */
@@ -245,6 +238,9 @@ header {
    transform: scale(1.03);
 }
 
+.busca-familia {
+    padding: 3.5rem;
+}
 
 .mascotas {
    display: flex;
@@ -270,6 +266,7 @@ header {
    justify-content: right;
    height: 3rem;
    margin-right: 1rem;
+   margin-bottom: 2rem;
 }
 
 
@@ -279,8 +276,8 @@ header {
    height: 3rem;
    margin-right: auto;
    margin-left: 2rem;
+   margin-bottom: 2rem;
 }
-
 
 .mascotas img:hover {
    transform: scale(1.03);
@@ -352,7 +349,6 @@ header {
        color: #fece02;
    }
 
-
    .nav-adopcion2{
        visibility:visible;
        font-family: "Montserrat", sans-serif;
@@ -369,7 +365,6 @@ header {
        text-align: center;
    }
 
-
    .nav-busca2{
        visibility: visible;
        font-family: "Montserrat", sans-serif;
@@ -377,7 +372,6 @@ header {
        font-size: 1rem;
        text-align: center;
    }
-
 
    .nav-animales { 
        visibility: hidden;
@@ -488,13 +482,9 @@ header {
   
 }
 
-
 .carrusel-nav a:hover{
    opacity: 1 ;
 }
-
-
-
 
 @media screen and (min-width: 600px) {
    .texto {
@@ -502,18 +492,15 @@ header {
 }
 }
 
-
 @media screen and (min-width: 1200px) {
    .animales{
        height:  130%;
        justify-content: left;
    }
 
-
    .inicio {
        flex-direction:row-reverse;
 }
-
 
 .titulo {
    font-family: "Anton", sans-serif;
@@ -528,41 +515,44 @@ header {
    color: #7ac6be;
 }
 
-
 .texto {
    font-size: 1.4rem;
+   padding: 2rem;
 }
-
 
 .texto2 {
    display: flex;
    font-size: 1.4rem;
+   padding: 2rem;
 }
-
 
 .adopta2 {
    display: flex;
    justify-content: left;
+   padding: 1.4rem;
 }
-
 
 .adopta{
    display: none;}
 
-
 .sobre-nosotros{
-   padding-bottom: 2rem;
+   padding-bottom: 1rem;
    padding-left: 5rem;
-   padding-right:5rem;}
-
+   padding-right:5rem;
+   padding-top: 5rem;
+}
 
 .inicio{
    align-items: end;}
 
 
-.eslogan2{display:none;}
+.eslogan2{
+    display:none;
+    padding: 2rem;
+}
 
-
-.mascotas {flex-direction: row;
-justify-content: center;}
+.mascotas {
+    flex-direction: row;
+    justify-content: center;
+}
 }
