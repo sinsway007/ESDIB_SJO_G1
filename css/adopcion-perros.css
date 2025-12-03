@@ -1,0 +1,331 @@
+/* Navbar*/
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    z-index: 10;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    background-color: none;
+}
+
+.logo {
+    max-width: 6rem;
+}
+
+.nav-list {
+    list-style-type: none;
+    display: flex;
+    gap: 2rem;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-animales {  
+    height: 2.5rem;
+    visibility: visible;
+}
+
+.nav-busca { 
+    height: 2.5rem;
+    visibility: visible;
+}
+
+.nav-adopcion { 
+    height: 2.5rem;
+    visibility: visible;
+}
+.nav-adopcion2{
+    visibility: hidden;
+}
+.nav-animales2{
+    visibility: hidden;
+}
+
+.nav-busca2{
+    visibility: hidden;
+}
+
+.abrir-menu,
+.cerrar-menu{
+    display: none;
+}
+
+/* Fin de Navbar*/
+
+.container {
+    max-width: 100%;
+    display: flex;
+}
+
+.foto-perfil img {
+    border-radius: 100%;
+    border: solid 5px;
+    border-color: #fece02;
+    width: 70%;
+     filter: drop-shadow(0 4px 9px rgba(0, 0, 0, 0.4));
+}
+
+.foto-perfil { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+margin-top: 1.5rem;}
+
+
+
+.nombre-mascotas {
+    font-size: 1.7rem;
+     color: rgb(0, 0, 0);
+    font-family: montserrat;
+    font-weight:lighter;
+    margin-top: 1.5rem;
+}
+
+.tipo-animal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.7rem;
+    font-family: Anton;
+color: #fece02;}
+
+.caracteristicas-mascotas { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 0.4rem;
+    margin-top: 1.5rem;
+    justify-content: center;
+    font-family: montserrat;
+    gap: rem;
+   }
+
+.caracteristicas-mascotas h3 {
+    color: rgb(0, 176, 220);}
+
+
+.caracteristicas-mascotas h4 {
+    color: rgb(0, 176, 220);}
+
+.caracteristicas-mascotas p {
+    line-height: 1rem;
+text-align: center;
+width: 80%;}
+
+
+.primera-parte-info {
+    display: flex;
+    width: 60%;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    padding-top: 0;
+    border-radius: 30px;
+    padding-bottom: 0.8rem;
+
+}
+
+
+.primera-parte-info h3 {
+    gap: 0%;
+}
+
+.tipo-caracteristica { color:rgb(0, 176, 220);
+line-height: 1.5rem;
+font-weight:bolder;
+font-size: 1rem;
+margin-top: 0.5rem;}
+
+.tipo-caracteristica-negro { color:black;
+line-height: 1.5rem;
+font-weight:bolder;
+font-size: 1rem;
+margin-top: 0.5rem;}
+
+.segunda-parte-info {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    text-align: center;
+    background-color: rgb(199, 244, 255);
+    align-items: center;
+    padding: 1.2rem;
+    border-radius: 30px;
+    margin-top: 1rem;
+}
+
+.info-caracteristicas {
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    line-height: 1rem;
+    font-size: 0.8rem;
+}
+
+.info-contacto {
+    color: rgb(0, 176, 220);
+line-height: 1.4rem;
+margin-top: 0.5rem;
+font-size: 0.9rem;}
+
+.tercera-parte-info {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    text-align: center;
+    background-color: #fed0023e;
+    align-items: center;
+    padding: 1.2rem;
+    border-radius: 30px;
+    margin-top: 2rem;
+}
+
+
+.raza-edad-sexo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 1.2rem;
+}
+
+.comportamiento-contacto {display: flex;
+flex-direction: column;
+align-items: center;}
+
+.imagenes-perros {display: flex;
+flex-direction: column;
+align-items: center;
+gap:1rem;
+margin-top: 2rem;}
+
+.imagenes {width: 90%;}
+
+.info-caracteristicas a {color: black;}
+
+@media (min-width: 600px) {
+.raza-edad-sexo {flex-direction: row;
+    gap: 2rem;
+}
+
+.comportamiento-contacto {display: flex;
+flex-direction: row;
+width: 85%;
+align-items:flex-start;
+margin-top: 1rem;
+gap:1rem;}
+
+.tercera-parte-info,
+.segunda-parte-info {margin-top: 0;}
+
+.foto-perfil img {width: 50%;}
+
+.imagenes-perros {
+    flex-direction: row;
+    flex-wrap: wrap;
+justify-content: center;}
+   
+.imagenes {width: 40%;}
+}
+
+
+    
+@media (min-width: 800px)  {
+    .raza-edad-sexo {flex-direction: row;
+    gap: 2rem;}
+
+.foto-perfil img {width: 20%;}
+.comportamiento-contacto{
+    flex-direction: row;
+    width: 70%;
+    align-items: flex-start;
+    gap: 1rem;}
+
+.imagenes {width: 20%;}
+
+}
+
+
+@media screen and (max-width: 550px) {
+
+    /* Navbar Escritorio */
+    
+    .abrir-menu,
+    .cerrar-menu {
+        display: block;
+        border: 0;
+        font-size: 1.25rem;
+        background-color: transparent;
+        cursor: pointer;
+    }
+
+    .nav {
+        opacity: 0;
+        visibility: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        gap: 1rem;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        padding: 2rem;
+        box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .5);
+        background-color: white;
+    }
+
+    .nav.visible {
+        opacity: 1;
+        visibility: visible;
+    }
+    
+    .nav-list {
+        flex-direction: column;
+        align-items: end;
+        color: black;
+        align-items: right;
+        padding: 2rem;
+    }
+
+    .nav-list :hover{
+        color: orange;
+    }
+
+    .nav-adopcion2{
+        visibility:visible;
+    }
+    .nav-animales2{
+        visibility: visible;
+    }
+
+    .nav-busca2{
+        visibility: visible;
+    }
+
+    .nav-animales {  
+        visibility: hidden;
+    }
+
+    .nav-busca { 
+        visibility: hidden;
+    }
+
+    .nav-adopcion { 
+        visibility: hidden;
+    }
+}
