@@ -99,8 +99,8 @@ margin-top: 1.5rem;}
     justify-content: center;
     align-items: center;
     font-size: 1.7rem;
-    font-family: Anton;
-color: #fece02;}
+    font-family: "Anton", sans-serif;
+    color: #fece02;}
 
 .caracteristicas-mascotas { 
     display: flex;
@@ -143,7 +143,7 @@ width: 80%;}
     gap: 0%;
 }
 
-.tipo-caracteristica { color:rgb(0, 176, 220);
+.tipo-caracteristica { color:#7ac6be;;
 line-height: 1.5rem;
 font-weight:bolder;
 font-size: 1rem;
@@ -160,7 +160,7 @@ margin-top: 0.5rem;}
     flex-direction: column;
     width: 80%;
     text-align: center;
-    background-color: rgb(199, 244, 255);
+    background-color: #7ac6be4c;;
     align-items: center;
     padding: 1.2rem;
     border-radius: 30px;
@@ -176,7 +176,7 @@ margin-top: 0.5rem;}
 }
 
 .info-contacto {
-    color: rgb(0, 176, 220);
+    color: #7ac6be;;
 line-height: 1.4rem;
 margin-top: 0.5rem;
 font-size: 0.9rem;}
@@ -213,7 +213,8 @@ align-items: center;
 gap:1rem;
 margin-top: 2rem;}
 
-.imagenes {width: 90%;}
+.imagenes {width: 90%;
+border-radius:10px;}
 
 .info-caracteristicas a {color: black;}
 
