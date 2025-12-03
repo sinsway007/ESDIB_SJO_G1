@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--Enlazado de css-->
+    <!--Enlazado de Css-->
     <link rel="stylesheet" href="css/formulario.css">
 
     <!--Enlace iconos de Menú hamburguesa-->
@@ -15,10 +15,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
     <!--Titulo de la pagina web-->
-    <title>Formulario de adopcion</title>
+    <title>¡Adopta!
+    </title>
 </head>
 <body>
-    <!--BARRA DE NAVEGACIÓN-->
+  
+  <!--BARRA DE NAVEGACIÓN-->
+
     <header>
         <img class="logo" src="imagenes/textomiaw.png" alt="Logo de Miaw!">
         <button id="abrir" class="abrir-menu"><i class="bi bi-list"></i></button>
@@ -30,121 +33,186 @@
                 <li><a href="#" class="nav-adopcion2" >Quiero dar en adopción</a></li>
                 <li><a href="#"><img class="nav-animales" src="imagenes/animales.png" alt="animales"></a></li>
                 <li><a href="#"><img class="nav-busca"  src="imagenes/sebusca.png" alt="se busca"></a></li>
-                <li><a href="#"><img class="nav-adopcion" src="imagenes/darenadopción.png" alt="dar en adopcion"></a></li>
-                
+                <li><a href="#"><a href="formulario.adopcion-j.r.html"><img class="nav-adopcion" src="imagenes/darenadopción.png" alt="dar en adopcion"></a></a></li>
             </ul>
         </nav>
     </header>
     <script src="js/formulario.js"></script>
 
+    <!--FIN BARRA NAVEGACIÓN-->
     <main>
-        <!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Sergio Garcia, Samuel Acosta, Carlos Perez, Marc Díaz, Teresa Ribas, Judith Ortega" >
-    <meta name="description" content= "Encuentra el compañero ideal en Mallorca. Publica animales en adopción o conecta con personas que buscan un hogar para sus mascotas. ¡Únete y salva una vida hoy!">
-    <meta name="keywords" content="adopción, animales, perro, gato, perros, gatos, hamsters, salvar, Mallorca, adoptar, donación">
-    <meta name="robots" content="formulario.html">
-    <!--Enlazado de css-->
-
-    <link rel="stylesheet" href="formulario.css">
-
-    <!--Fuentes de Google Montserrat-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-
-    <!--Titulo de la pagina web-->
-    <title>Formulario de adopcion</title>
-     <link rel="stylesheet" href="normalize.css">
-    <link rel="stylesheet" href="formulario.css">
-</head>
-<body>
-
-
+        <main>
 <section class="padre">
-    <section class="columna-formulario">
-    <section class="encabezado-formulario">
-    <img src="imagenes/ENCABEZADO FORMULARIO copia.jpg" class="gato-formulario" alt="gato">
-</section>
+   
 
     <section class="formulario">
-        <section class="encabezado">
-    <section class="h1">
+        <section class="columna-formulario">
+        <section class="encabezado-formulario">
+            <img src="imagenes/ENCABEZADO FORMULARIO copia.jpg" class="gato-formulario" alt="gato">
+        </section>
         <section class="info-formulario">
             <form action="#" method="POST" enctype="multipart/form-data">
-<section class="caja-titulo">
-        <h2 class="caja-titulo">RELLENA EL FORMULARIO</h2>
-            </section>
-    <label for="animal">Nombre:</label>
-    <input type="text" id="animal" name="animal" required>
+            <section class="caja-titulo">¡Rellena este formulario!</section>
+                
+            <label for="edad">Tipo de animal (perro, gato, conejo...)</label>
+                <input type="text" id="edad" name="edad" required>
+                <label for="animal">Nombre:</label>
+                <input type="text" id="animal" name="animal" required>
 
-    <label for="edad">Edad:</label>
-    <input type="text" id="edad" name="edad" required>
 
-    <label for="edad">Tipo de animal y raza:</label>
-    <input type="text" id="edad" name="edad" required>
+                <label for="edad">Edad:</label>
+                <select type="text" id="edad" name="edad" required >
+                          <option value="">Selecciona una edad</option>
+                                <option value="menos-1">Menos de 1 año</option>
+                                <option value="1">1 año</option>
+                                <option value="2">2 años</option>
+                                <option value="3">3 años</option>
+                                <option value="4">4 años</option>
+                                <option value="5">5 años</option>
+                                <option value="6">6 años</option>
+                                <option value="7">7 años</option>
+                                <option value="8">8 años</option>
+                                <option value="9">9 años</option>
+                                <option value="10">10 años</option>
+                                 <option value="11">11 años</option>
+                                <option value="12">12 años</option>
+                                <option value="13">13 años</option>
+                                <option value="14">14 años</option>
+                                <option value="15">15 años</option>
+                                <option value="16">16 años</option>
+                                <option value="10-plus">Más de 16 años</option>
+                </select>
 
-    <label for="info">Información adicional (comportamiento, carácter, enfermedades...):</label>
-    <textarea id="info" name="info" rows="4" required></textarea>
 
-    <label for="telefono">Número de teléfono:</label>
-    <input type="tel" id="telefono" name="telefono" required>
+                <label for="edad">Sexo</label>
+                <select type="text" id="sexo" name="sexo" required>
+                    <option value="">Selecciona el sexo</option>
+                    <option value="hembra">Hembra</option>
+                    <option value="macho">Macho</option>
+                </select>
 
-    <label for="email">Correo electrónico:</label>
-    <input type="email" id="email" name="email" required>
 
-    <label for="fotos">Adjuntar fotografías:</label>
-    <input type="file" id="fotos" name="fotos" accept="image/*" multiple>
+                <label for="comportamiento">Comportamiento e información adicional...</label>
+                <textarea id="info" name="info" rows="3" required></textarea>
 
-  <button type="submit">ENVIAR</button> 
-</form>
+                <label for="enfermedades">Enfermedades</label>
+                <input type="text" id="enfermedades" name="enfermedades" required>
+
+                <label for="vacunas">Vacunas</label>
+                <select type="text" id="vacunas" name="vacunas" required>
+                    <option value="">Selecciona</option>
+    <option value="hembra">Todas</option>
+    <option value="macho">Le faltan vacunas</option>
+                </select>
+
+                <label for="vacunas-no">Si la respuesta anterior fue "Le faltan vacunas", ¿cuáles son?</label>
+                <input type="text" id="vacunas-no" name="vacunas-no" required>
+
+                <label for="nombre-dueño">Nombre del dueño:</label>
+                <input type="tel" id="nombre-dueño" name="nombre-dueño" required>
+
+                <label for="telefono">Número de teléfono:</label>
+                <input type="tel" id="telefono" name="telefono" required>
+
+
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required>
+
+
+                <label for="fotos">Adjuntar fotografías:</label>
+                <input type="file" id="fotos" name="fotos" accept="image/*" multiple>
+
+
+                <button type="submit">ENVIAR</button>
+            </form>
+        </section>
+    </section> 
   <section class="advertencias">
     <details>
         <summary class="adv"> Advertencias</summary>
-        <div class="contenido">
-            <p>En <strong>Miaw! </strong> creemos en las <strong>adopciones responsables </strong> y 
-                en el <strong>bienestar de todos los animales. </strong> <br>
+        <section class="contenido">
+            <section class="intro-advertencias">En <strong>Miaw! </strong> creemos en las <strong>adopciones responsables </strong> y
+                en el <strong>bienestar de todos los animales. </strong> <br>Para protegerlos y asegurar una 
+                comunidad segura y solidaria, te pedimos leer y respetar las siguientes normas: <br></section>
 
-Para protegerlos y asegurar una comunidad segura y solidaria, te pedimos leer y respetar las siguientes normas: <br></p>
 
-<p><strong>-Prohibido lucrarse o comerciar con animales. </strong><br>
-Miaw! no permite la compraventa, el lucro ni el tráfico de mascotas bajo ningún concepto.
-Nuestra plataforma existe exclusivamente para fomentar adopciones responsables y sin ánimo de lucro.
-Si detectas alguna publicación o usuario que incumpla esta norma, puedes denunciarlo a través del correo: <em>denuncias@miaw.com</em></p>
+            <section class="texto-advertencia"><strong>-Prohibido lucrarse o comerciar con animales. </strong><br>
+            Miaw! no permite la compraventa, el lucro ni el tráfico de mascotas bajo ningún concepto.
+            Nuestra plataforma existe exclusivamente para fomentar adopciones responsables y sin ánimo de lucro.
+            Si detectas alguna publicación o usuario que incumpla esta norma, puedes denunciarlo a través del correo: 
+            <em>denuncias@miaw.com</em></section>
 
-<p><strong>-No es una página para abandonar o “deshacerse” de tu mascota.</strong><br>
-Miaw! no está pensada para quienes se cansan de su mascota o buscan una salida fácil.
-Publicar un animal aquí debe ser una de las últimas opciones, solo cuando no exista otra alternativa responsable.
-El abandono nunca es una opción. Antes de subir una mascota, asegúrate de haber considerado todas las soluciones posibles y de actuar siempre pensando en su bienestar.</p>
 
-<p><strong>-Vacunación obligatoria según la ley en España.</strong><br>
-De acuerdo con la legislación española vigente, todas las mascotas deben contar con su vacunación al día (incluyendo la antirrábica obligatoria, entre otras).
-En Miaw! solo se aceptarán animales que cumplan con los requisitos legales de salud y vacunación.
-Esta medida garantiza adopciones seguras, responsables y legales para todas las partes.</p>
+            <section class="texto-advertencia"><strong>-No es una página para abandonar o “deshacerse” de tu mascota.</strong><br>
+            Miaw! no está pensada para quienes se cansan de su mascota o buscan una salida fácil.
+            Publicar un animal aquí debe ser una de las últimas opciones, solo cuando no exista otra alternativa responsable.
+            El abandono nunca es una opción. Antes de subir una mascota, asegúrate de haber considerado todas las soluciones posibles y de 
+            actuar siempre pensando en su bienestar.</section>
 
-<p><strong>-Cartilla sanitaria o pasaporte veterinario.</strong><br>
-Si la mascota cuenta con cartilla sanitaria o pasaporte veterinario actualizado, la información será verificada en la web antes de aprobar la publicación.
-De esta forma, nos aseguramos de que todas las mascotas estén protegidas y en condiciones óptimas para su adopción.</p>
-            </p>
-        </div>
 
-        </details>
+            <section class="texto-advertencia"><strong>-Vacunación obligatoria según la ley en España.</strong><br>
+            De acuerdo con la legislación española vigente, todas las mascotas deben contar con su vacunación al día (incluyendo la antirrábica obligatoria, entre otras).
+            En Miaw! solo se aceptarán animales que cumplan con los requisitos legales de salud y vacunación.
+            Esta medida garantiza adopciones seguras, responsables y legales para todas las partes.</section>
+
+
+            <section class="texto-advertencia"><strong>-Cartilla sanitaria o pasaporte veterinario.</strong><br>
+            Si la mascota cuenta con cartilla sanitaria o pasaporte veterinario actualizado, la información será verificada en la web antes de aprobar la publicación.
+            De esta forma, nos aseguramos de que todas las mascotas estén protegidas y en condiciones óptimas para su adopción.</section>
+            
+        </section>
+
+
+    </details>
+
+    
   </section>
-        
+       
+  <section class="advertencias-escritorio">
+        <section class="adv-escritorio"> Advertencias</section>
+        <section class="contenido">
+            <section class="intro-advertencias">En <strong>Miaw! </strong> creemos en las <strong>adopciones responsables </strong> y
+                en el <strong>bienestar de todos los animales. </strong> <br>Para protegerlos y asegurar una 
+                comunidad segura y solidaria, te pedimos leer y respetar las siguientes normas: <br></section>
+
+
+            <section class="texto-advertencia"><strong>-Prohibido lucrarse o comerciar con animales. </strong><br>
+            Miaw! no permite la compraventa, el lucro ni el tráfico de mascotas bajo ningún concepto.
+            Nuestra plataforma existe exclusivamente para fomentar adopciones responsables y sin ánimo de lucro.
+            Si detectas alguna publicación o usuario que incumpla esta norma, puedes denunciarlo a través del correo: 
+            <em>denuncias@miaw.com</em></section>
+
+
+            <section class="texto-advertencia"><strong>-No es una página para abandonar o “deshacerse” de tu mascota.</strong><br>
+            Miaw! no está pensada para quienes se cansan de su mascota o buscan una salida fácil.
+            Publicar un animal aquí debe ser una de las últimas opciones, solo cuando no exista otra alternativa responsable.
+            El abandono nunca es una opción. Antes de subir una mascota, asegúrate de haber considerado todas las soluciones posibles y de 
+            actuar siempre pensando en su bienestar.</section>
+
+
+            <section class="texto-advertencia"><strong>-Vacunación obligatoria según la ley en España.</strong><br>
+            De acuerdo con la legislación española vigente, todas las mascotas deben contar con su vacunación al día (incluyendo la antirrábica obligatoria, entre otras).
+            En Miaw! solo se aceptarán animales que cumplan con los requisitos legales de salud y vacunación.
+            Esta medida garantiza adopciones seguras, responsables y legales para todas las partes.</section>
+
+
+            <section class="texto-advertencia"><strong>-Cartilla sanitaria o pasaporte veterinario.</strong><br>
+            Si la mascota cuenta con cartilla sanitaria o pasaporte veterinario actualizado, la información será verificada en la web antes de aprobar la publicación.
+            De esta forma, nos aseguramos de que todas las mascotas estén protegidas y en condiciones óptimas para su adopción.</section>
+            
+        </section>
+
   </section>
-</section>
-</section>
-</section>  
-</section>
+ 
 </section>
 </section>
 </body>
 </html>
 
+
     </main>
-    <!--FIN BARRA NAVEGACIÓN-->
+
+    </main>
+
 </body>
 </html>
