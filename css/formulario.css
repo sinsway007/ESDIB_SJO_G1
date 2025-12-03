@@ -92,6 +92,162 @@ header {
 
 /* Contenido Formulario Movil */
 
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+h2{
+    text-align: left;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: bolder;
+    font-style: normal;
+  align-items: left;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color:#7ac6be;
+}
+
+.info-formulario {
+    font-weight: 300;
+    text-align: left;   
+}
+
+.formulario {
+        width: 70%;
+
+}
+
+
+.anton-regular {
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+p{
+    text-align: left;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    line-height: 1.7;
+    font-style: normal;
+    font-size: 1.1rem;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    background-color: none;
+}
+
+
+.caja-titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    form {
+        width: 70%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        background-color:#ffeea9 ;
+        padding: 2rem;
+        border-radius: 20px;
+    }
+
+    input, textarea {
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 14px;
+    }
+
+    button {
+        padding: 10px;
+        background: #7ac6be;
+        color: white;
+        border: none;
+        border-radius: 50px;
+        cursor: pointer;
+        
+    }
+
+    .encabezado-formulario {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+}
+
+        .gato-formulario {
+    width: 70%;
+    display: block;
+}
+
+    .columna-formulario {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+.advertencias {
+    display: flex;
+    margin-top: 10px;
+    justify-content: left;
+    margin-left: 15%;
+}
+
+summary  {padding: 10px;
+        background: #7ac6be;
+        color: white;
+        border: none;
+        border-radius: 50px;
+        cursor: pointer;}
+
+summary::-webkit-details-marker {
+    display: none;
+}
+
+summary {
+    list-style: none;
+}
+
+.adv {
+    position: relative;
+    padding-right: 30px; 
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.adv::after {
+    content: "▶";               
+    position: absolute;
+    right: 1px;                  
+    top: 50%;
+    transform: translateY(-50%); 
+    transition: transform 0.3s;
+    padding-right: 8px;
+}
+
+details[open] .adv::after {
+    transform: translateY(-20%) rotate(90deg);
+       margin-right: 10px;
+
+}
+.contenido {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 
 
 
