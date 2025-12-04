@@ -1,22 +1,21 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--Enlazado de Css-->
-    <link rel="stylesheet" href="css/formulario.css">
-
-    <!--Enlace iconos de Menú hamburguesa-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
-
-    <!--Fuentes de Google Montserrat-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-
-    <!--Titulo de la pagina web-->
-    <title>¡Adopta!</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="css/formulario.css" />
+  <title>¡Adopta!</title>
+  <style>
+    /* Mini estilos para la galería */
+    .pet-item { margin-bottom: 14px; }
+    .pet-header { margin-bottom: 6px; }
+    .pet-photos { display: flex; gap: 8px; flex-wrap: wrap; margin: 6px 0 0 0; padding: 0; }
+    .pet-photos img { width: 96px; height: 96px; object-fit: cover; border-radius: 6px; border: 1px solid #ddd; }
+    .pet-actions button { margin-left: 8px; }
+    .muted { color: #666; font-size: 0.9em; }
+  </style>
 </head>
+
 <body>
     <!--BARRA DE NAVEGACIÓN-->
 
@@ -28,10 +27,10 @@
             <ul class="nav-list">
                <li><a href="#" class="nav-animales2"><a href="/Frontend/se-busca/adopcion-t.r.html" class="desplegable-animales">Animales</a></a></li>
                <li><a href="#" class="nav-busca2"><a href="/Frontend/se-busca/adopcion-t.r.html" class="desplegable-animales">Se buscan</a></a></li>
-               <li><a href="#" class="nav-adopcion2"><a href="/Frontend/formulario/formulario.adopcion-j.r.html" class="desplegable-animales">Quiero dar en adopción</a></a></li>
+               <li><a href="#" class="nav-adopcion2"><a href="/Frontend/formulario/formulario.html" class="desplegable-animales">Quiero dar en adopción</a></a></li>
                <li><a href="#"><a href="/Frontend/se-busca/adopcion-t.r.html"><img class="nav-animales" src="../imagenes/animales2.png" alt="animales"></a></a></li>
                <li><a href="#"><a href="/Frontend/se-busca/adopcion-t.r.html"><img class="nav-busca"  src="../imagenes/sebusca.png" alt="se busca"></a></a></li>
-               <li><a href="#"><a href="/Frontend/formulario/formulario.adopcion-j.r.html"><img class="nav-adopcion" src="../imagenes/darenadopción2.png" alt="dar en adopcion"></a></a></li>
+               <li><a href="#"><a href="/Frontend/formulario/formulario.html"><img class="nav-adopcion" src="../imagenes/darenadopción2.png" alt="dar en adopcion"></a></a></li>
            </ul>
         </nav>
     </header>
@@ -41,92 +40,111 @@
 
     <main>
         <main>
-<section class="padre">
-   
+  <section class="padre">
 
     <section class="formulario">
         <section class="columna-formulario">
-        <section class="encabezado-formulario">
-            <img src="../imagenes/ENCABEZADO FORMULARIO copia.jpg" class="gato-formulario" alt="gato">
+
+            <section class="encabezado-formulario">
+                <img src="../imagenes/ENCABEZADO FORMULARIO copia.jpg"
+                     class="gato-formulario"
+                     alt="gato">
+            </section>
+
+            <section class="info-formulario">
+
+                <!-- FORMULARIO REAL -->
+                <form id="alta_pet" enctype="multipart/form-data">
+
+                    <section class="caja-titulo">¡Rellena este formulario!</section>
+
+                    
+                        <label>Tipo de animal</label>
+                        <select name="tipo" id="tipo">
+                            <option value="">Selecciona</option>
+                            <option value="Perro">Perro</option>
+                            <option value="Gato">Gato</option>
+                            <option value="Otros">Otros</option>
+                        </select>
+                    
+
+                    
+                        <label>Nombre del animal</label>
+                        <input type="text" name="nombre" id="nombre" autocomplete="off">
+                    
+
+                    
+                        <label>Raza</label>
+                        <input type="text" name="raza" id="raza" autocomplete="off">
+                    
+
+                    
+                        <label>Edad</label>
+                        <input type="text" name="edad" id="edad" placeholder="1" autocomplete="off">
+                    
+
+                    
+                        <label>Comportamiento</label>
+                        <textarea cols="22" rows="3"
+                                  name="comportamiento" id="comportamiento"
+                                  placeholder="..." autocomplete="off"></textarea>
+                    
+
+                    
+                        <label>Vacunas</label>
+                        <select name="vacunas" id="vacunas">
+                            <option value="">¿Vacunado?</option>
+                            <option value="Sí">Sí</option>
+                            <option value="No">No</option>
+                        </select>
+                    
+
+                    
+                        <label>Sexo</label>
+                        <select name="sexo" id="sexo">
+                            <option value="">Sexo</option>
+                            <option value="Macho">Macho</option>
+                            <option value="Hembra">Hembra</option>
+                        </select>
+                    
+
+                    
+                        <label>Foto</label>
+                        <input type="file" name="file" id="files" multiple>
+                    
+                    <section class="caja-titulo">Datos del propietario</section>
+                    
+
+                    
+                        <label>Nombre del dueño</label>
+                        <input type="text" name="nombreDueno" id="nombreDueno">
+                    
+
+                    
+                        <label>Email</label>
+                        <input type="email" name="email" id="email">
+                    
+
+                    
+                        <label>Teléfono</label>
+                        <input type="text" name="telefono" id="telefono">
+                    
+
+
+                        <button id="upload-button" type="submit">
+                            <label>ENVIAR</label>
+                        </button>
+
+                        <button id="cancel-edit" type="button"
+                                style="display:none; margin-left:8px;">
+                            Cancelar edición
+                        </button>
+
+                </form>
+
+            </section>
         </section>
-        <section class="info-formulario">
-            <form action="#" method="POST" enctype="multipart/form-data">
-            <section class="caja-titulo">¡Rellena este formulario!</section>
-                
-            <label for="edad">Tipo de animal (perro, gato, conejo...)</label>
-                <input type="text" id="edad" name="edad" required>
-                <label for="animal">Nombre:</label>
-                <input type="text" id="animal" name="animal" required>
-
-
-                <label for="edad">Edad:</label>
-                <select type="text" id="edad" name="edad" required >
-                          <option value="">Selecciona una edad</option>
-                                <option value="menos-1">Menos de 1 año</option>
-                                <option value="1">1 año</option>
-                                <option value="2">2 años</option>
-                                <option value="3">3 años</option>
-                                <option value="4">4 años</option>
-                                <option value="5">5 años</option>
-                                <option value="6">6 años</option>
-                                <option value="7">7 años</option>
-                                <option value="8">8 años</option>
-                                <option value="9">9 años</option>
-                                <option value="10">10 años</option>
-                                 <option value="11">11 años</option>
-                                <option value="12">12 años</option>
-                                <option value="13">13 años</option>
-                                <option value="14">14 años</option>
-                                <option value="15">15 años</option>
-                                <option value="16">16 años</option>
-                                <option value="10-plus">Más de 16 años</option>
-                </select>
-
-
-                <label for="edad">Sexo</label>
-                <select type="text" id="sexo" name="sexo" required>
-                    <option value="">Selecciona el sexo</option>
-                    <option value="hembra">Hembra</option>
-                    <option value="macho">Macho</option>
-                </select>
-
-
-                <label for="comportamiento">Comportamiento e información adicional...</label>
-                <textarea id="info" name="info" rows="3" required></textarea>
-
-                <label for="enfermedades">Enfermedades</label>
-                <input type="text" id="enfermedades" name="enfermedades" required>
-
-                <label for="vacunas">Vacunas</label>
-                <select type="text" id="vacunas" name="vacunas" required>
-                    <option value="">Selecciona</option>
-    <option value="hembra">Todas</option>
-    <option value="macho">Le faltan vacunas</option>
-                </select>
-
-                <label for="vacunas-no">Si la respuesta anterior fue "Le faltan vacunas", ¿cuáles son?</label>
-                <input type="text" id="vacunas-no" name="vacunas-no" required>
-
-                <label for="nombre-dueño">Nombre del dueño:</label>
-                <input type="tel" id="nombre-dueño" name="nombre-dueño" required>
-
-                <label for="telefono">Número de teléfono:</label>
-                <input type="tel" id="telefono" name="telefono" required>
-
-
-                <label for="email">Correo electrónico:</label>
-                <input type="email" id="email" name="email" required>
-
-
-                <label for="fotos">Adjuntar fotografías:</label>
-                <input type="file" id="fotos" name="fotos" accept="image/*" multiple>
-
-                <button type="submit" class="btn-enviar">ENVIAR</button>
-
-            </form>
-        </section>
-    </section> 
-  <section class="advertencias">
+    <section class="advertencias">
     <details>
         <summary class="adv"> Advertencias</summary>
         <section class="contenido">
@@ -205,5 +223,12 @@
  
 </section>
 </section>
+
+      <h2>Lista</h2>
+      <ul id="pets-list"></ul>
+    </div>
+  </div>
+
+<script src="app.js" defer></script>
 </body>
 </html>

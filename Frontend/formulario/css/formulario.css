@@ -151,7 +151,14 @@ header {
         font-size: 14px;
     }
 
-    .btn-enviar {
+    select {
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 14px;
+    }
+
+    button {
         padding: 10px;
         background: #7ac6be;
         color: white;
@@ -358,4 +365,3 @@ gap: 1.4rem;}
 }
 
 /* Fin de Contenido Escritorio */
-
