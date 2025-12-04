@@ -33,11 +33,13 @@ p{
 /* Navbar*/
 
 header {
-   display: flex;
-   align-items: center;
-   justify-content: space-between;
-   padding-left: 2rem;
-   padding-right: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    z-index: 10;
+
 }
 
 .logo {
@@ -89,7 +91,8 @@ header {
 .desplegable-animales {visibility: hidden;}
 /* Fin de Navbar*/
 
-/* Contenido Formulario Movil */
+/* Contenido Adopcion Movil */
+
 .padre{ display: flex;
   justify-content: center; 
   align-items: center;     
@@ -127,29 +130,6 @@ header {
     width: 85%;
     }
 
-
-p{
-    text-align: left;
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    line-height: 1.7;
-    font-style: normal;
-    font-size: 1.1rem;
-}
-
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Montserrat", sans-serif;
-    background-color: none;
-}
-
-
-
-
 .caja-titulo {
     display: flex;
     justify-content: center;
@@ -171,8 +151,7 @@ p{
         font-size: 14px;
     }
 
-
-    button {
+    .btn-enviar {
         padding: 10px;
         background: #7ac6be;
         color: white;
@@ -181,7 +160,6 @@ p{
         cursor: pointer;
        
     }
-
 
 
     .columna-formulario {
@@ -198,8 +176,8 @@ p{
 }
 
 
-        .gato-formulario {
-            display: flex;
+    .gato-formulario {
+    display: flex;
     width: 100%;
 }
 
@@ -281,7 +259,11 @@ gap: 1.4rem;}
 
 
 
-/* Contenido Adopcion Movil */
+
+/* Fin de Movil */
+
+
+/* Escritorio */
 
 @media screen and (max-width: 950px) {
 
@@ -352,21 +334,28 @@ gap: 1.4rem;}
         visibility: hidden;
     }
 
-    .desplegable-animales {visibility: visible;}
+        .desplegable-animales {visibility: visible;}
     /* Fin de Navbar Escritorio */
+
+
+    /* Contenido Escritorio */
+    @media screen and (min-width:850px)
+    {.formulario{
+        flex-direction: row;
+        width: 90%;
+        gap: 2rem;
+    }
+    .advertencias{display:none;}
+    .advertencias-escritorio {display: flex;
+    flex-direction: column;
+    width: 100%;}
+    }
+
+
+
+
+    
 }
 
-@media screen and (min-width:850px)
-{.formulario{
-    flex-direction: row;
-    width: 90%;
-    gap: 2rem;
-}
- .advertencias{display:none;}
-.advertencias-escritorio {display: flex;
-flex-direction: column;
-width: 100%;}
+/* Fin de Contenido Escritorio */
 
-
-
-}
