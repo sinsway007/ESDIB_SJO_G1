@@ -87,6 +87,7 @@ header {
     display: none;
 }
 
+.desplegable-animales {visibility: hidden;}
 /* Fin de Navbar*/
 
 /* Contenido Formulario Movil */
@@ -352,6 +353,7 @@ gap: 1.4rem;}
         visibility: hidden;
     }
 
+    .desplegable-animales {visibility: visible;}
     /* Fin de Navbar Escritorio */
 }
 

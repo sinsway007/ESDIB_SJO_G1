@@ -87,6 +87,7 @@ header {
     display: none;
 }
 
+.desplegable-animales {visibility: hidden;}
 /* Fin de Navbar*/
 
 /* Contenido Adopcion Movil */
@@ -237,6 +238,7 @@ footer {
         visibility: hidden;
     }
 
+        .desplegable-animales {visibility: visible;}
     /* Fin de Navbar Escritorio */
 
 
