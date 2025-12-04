@@ -76,7 +76,6 @@ header {
     border: solid 5px;
     border-color: #fece02;
     width: 70%;
-     filter: drop-shadow(0 4px 9px rgba(0, 0, 0, 0.4));
 }
 
 .foto-perfil { 
