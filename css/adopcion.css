@@ -50,6 +50,7 @@ header {
     list-style-type: none;
     display: flex;
     gap: 2rem;
+    padding: 1.3rem;
 }
 
 .nav-list li a {
