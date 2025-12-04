@@ -64,6 +64,8 @@ header {
     display: none;
 }
 
+.desplegable-animales {visibility: hidden;}
+
 /* Fin de Navbar*/
 
 .container {
@@ -261,7 +263,7 @@ justify-content: center;}
 }
 
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 950px) {
 
     /* Navbar Escritorio */
     
@@ -290,6 +292,7 @@ justify-content: center;}
         background-color: white;
     }
 
+    .desplegable-animales {visibility: visible;}
     .nav.visible {
        opacity: 0.9;
        visibility: visible;

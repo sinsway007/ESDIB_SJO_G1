@@ -134,11 +134,11 @@ header {
 .titulo {
    font-family: "Anton", sans-serif;
    font-weight: 100;
-   font-size: 5rem;
+   font-size: 4rem;
    font-style: normal;
    padding-left: 2rem;
    padding-right: 2rem;
-   line-height: 5rem;
+   line-height: 4rem;
    text-align: left;
    color: #7ac6be;
 }
@@ -176,18 +176,15 @@ header {
    z-index: -1;
 }
 
-.eslogan h2{
-   font-size: 5rem;
-}
-
 .eslogan {
    padding: 2rem;
    font-family: "Anton", sans-serif;
    text-align: center;          
    background-color: #7ac6be;      
    color: white;
-   line-height: 5rem;
+   line-height: 3rem;
    z-index: 2;
+    font-size: 3rem;
    padding: 2rem;
 }
 
@@ -298,7 +295,7 @@ header {
 /* Escritorio */
 
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 950px) {
   
    /* Navbar Escritorio */
 
@@ -493,7 +490,7 @@ header {
 }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 950px) {
    .animales{
        height:  130%;
        justify-content: left;
@@ -541,7 +538,7 @@ header {
    padding-bottom: 1rem;
    padding-left: 5rem;
    padding-right:5rem;
-   padding-top: 5rem;
+   padding-top: 2rem;
 }
 
 .inicio{
