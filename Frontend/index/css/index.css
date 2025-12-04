@@ -236,9 +236,6 @@ header {
    transform: scale(1.03);
 }
 
-.busca-familia {
-    padding: 3.5rem;
-}
 
 .mascotas {
    display: flex;
@@ -247,6 +244,10 @@ header {
    gap: 5px;             
 }
 
+.busca-familia {
+   padding-left: 2rem;
+   padding-right: 2rem;
+}
 
 .mascotas img {
    width: 100%;          /* Se adapta al ancho del contenedor */
