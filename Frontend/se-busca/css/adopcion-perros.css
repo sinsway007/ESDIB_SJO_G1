@@ -291,8 +291,8 @@ justify-content: center;}
     }
 
     .nav.visible {
-        opacity: 1;
-        visibility: visible;
+       opacity: 0.9;
+       visibility: visible;
     }
     
     .nav-list {
