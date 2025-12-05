@@ -343,10 +343,10 @@ gap: 1.4rem;}
 
         .desplegable-animales {visibility: visible;}
     /* Fin de Navbar Escritorio */
-
+    }
 
     /* Contenido Escritorio */
-    @media screen and (min-width:850px)
+    @media screen and (min-width:800px)
     {.formulario{
         flex-direction: row;
         width: 90%;
@@ -362,6 +362,6 @@ gap: 1.4rem;}
 
 
     
-}
+
 
 /* Fin de Contenido Escritorio */
