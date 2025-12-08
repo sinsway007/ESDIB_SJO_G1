@@ -123,6 +123,15 @@ header {
 }
 
 
+#upload-button{
+    padding: 10px;
+    background: #7ac6be;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
 .formulario {
     display: flex;
     flex-direction: column;
@@ -156,16 +165,6 @@ header {
         border: 1px solid #ccc;
         border-radius: 5px;
         font-size: 14px;
-    }
-
-    button {
-        padding: 10px;
-        background: #7ac6be;
-        color: white;
-        border: none;
-        border-radius: 50px;
-        cursor: pointer;
-       
     }
 
 
