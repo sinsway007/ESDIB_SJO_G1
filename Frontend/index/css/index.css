@@ -731,7 +731,7 @@ header {
 
 
 .animales {
-   width: 137.5%;       
+   width: 100%;       
    max-width: 100rem;  
    height: auto;      
    object-fit: cover;
@@ -1145,7 +1145,7 @@ header {
 	min-height: 350px;
 	perspective: 1px;
 	overflow: hidden;
-	width: 840px
+	width: 430px
 }
 .testimonials .item {
 	width: 435px;
