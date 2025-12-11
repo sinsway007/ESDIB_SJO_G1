@@ -1192,11 +1192,11 @@ header {
 }
 
 .prev {
-  left: 260px;
+  left: 44px;
 }
 
 .next {
-  right: 250px;
+  right: 44px;
 
 /* Mueve la tarjeta que está 2 posiciones a la derecha del centro. La aleja y la gira para dar efecto 3D.
 z-index:2 → queda detrás del centro y de las tarjetas cercanas. */
