@@ -135,7 +135,7 @@ header {
 .titulo {
    font-family: "Anton", sans-serif;
    font-weight: 100;
-   font-size: 4rem;
+   font-size: 3rem;
    font-style: normal;
    padding-left: 2rem;
    padding-right: 2rem;
@@ -167,7 +167,7 @@ header {
 
 
 .animales {
-   width: 137.5%;       
+   width: 100%;       
    max-width: 100rem;  
    height: auto;      
    object-fit: cover;
@@ -1145,10 +1145,10 @@ header {
 	min-height: 350px;
 	perspective: 1px;
 	overflow: hidden;
-	width: 430px
+	width: 100%
 }
 .testimonials .item {
-	width: 435px;
+	width: 100%;
 	padding: 61px;
 	border-radius: 5px;
 	position: absolute;
