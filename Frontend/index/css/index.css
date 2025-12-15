@@ -283,6 +283,14 @@ header {
    transform: scale(1.03);
 }
 
+.video-gato {
+      display: flex;
+  justify-content: center;
+  align-items: center;
+}
+video {
+  width: 100%;
+}
 
 /* Fin de Contenido Index Movil */
 
