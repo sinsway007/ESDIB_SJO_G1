@@ -557,7 +557,8 @@ video {
 }
 
 .inicio{
-   align-items: end;}
+   align-items: center;
+align-content: center;}
 
 
 .eslogan2{
@@ -575,7 +576,18 @@ video {
 }
 
 .video-gato {width:100%;
-align-items: center;}
+align-items: center;
+align-content: center;}
+
+.caja-gato {
+   align-items: center;
+align-content: center;
+}
+}
+
+video { 
+   align-items: center;
+align-content: center;
 }
 
 
