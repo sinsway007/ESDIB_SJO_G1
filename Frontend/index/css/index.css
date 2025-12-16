@@ -511,9 +511,6 @@ video {
        justify-content: left;
    }
 
-   .inicio {
-       flex-direction:row-reverse;
-}
 
 .titulo {
    font-family: "Anton", sans-serif;
@@ -556,9 +553,8 @@ video {
    padding-top: 2rem;
 }
 
-.inicio{
-   align-items: center;
-align-content: center;}
+.inicio{ flex-direction:row-reverse;
+   align-items:flex-start}
 
 
 .eslogan2{
@@ -585,10 +581,7 @@ align-content: center;
 }
 }
 
-video { 
-   align-items: center;
-align-content: center;
-}
+
 
 
 body{
@@ -1130,13 +1123,13 @@ header {
 
 .sobre-nosotros{
    padding-bottom: 1rem;
-   padding-left: 5rem;
+   padding-left: 0rem;
    padding-right:5rem;
    padding-top: 2rem;
 }
 
 .inicio{
-   align-items: end;}
+   align-items: center;}
 
 
 .eslogan2{
@@ -1152,6 +1145,8 @@ header {
   justify-content: center;
   gap: 0.5rem;
 }
+
+video {margin-left: 1rem;}
 }
 
 
