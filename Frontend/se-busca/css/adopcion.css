@@ -1,4 +1,8 @@
 /* Tipografias y textos */
+body{
+   overflow-x: hidden;
+}
+
 
 h1{
     text-align: center;
@@ -39,6 +43,8 @@ header {
     padding-left: 2rem;
     padding-right: 2rem;
     z-index: 10;
+    box-shadow: 5px 5px 10px #ededed;
+
 
 }
 
@@ -121,6 +127,7 @@ header {
 .circulos {
     width: 55%;
     height: auto;
+
 }
 
 
