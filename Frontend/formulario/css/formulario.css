@@ -122,6 +122,8 @@ header {
     background-color:#fed00247;
     padding: 2rem;
     border-radius: 20px; 
+    box-shadow: 5px 5px 5px #ededed;
+
 }
 
 
@@ -180,9 +182,10 @@ header {
     .encabezado-formulario img{
     display: flex;
     width: 100%;
-    justify-content: center;
 }
 
+ .encabezado-formulario {display: flex;
+}
 
     .gato-formulario {
     display: flex;
@@ -357,8 +360,14 @@ gap: 1.4rem;}
     .advertencias-escritorio {display: flex;
     flex-direction: column;
     width: 100%;}
+
+    .formulario-sin-encabezado {display: flex;
+    gap:2rem;}
+
+    .encabezado-formulario {width: 40%; margin-left: 5rem;}
     }
 
+    
 
 
 
