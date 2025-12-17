@@ -67,7 +67,7 @@ header {
    padding-left: 2rem;
    padding-right: 2rem;
    box-shadow: 5px 5px 10px #ededed;
-   margin-bottom: 2rem;
+   margin-bottom: 0rem;
 }
 
 
@@ -563,7 +563,6 @@ video {
    display: none;}
 
 .sobre-nosotros{
-   padding-bottom: 1rem;
    padding-left: 5rem;
    padding-right:3rem;
    padding-top: 2rem;
@@ -749,6 +748,7 @@ header {
 .inicio {
    display: flex;
    flex-direction: column;
+   margin-top: 1.2rem;
 }
 
 
@@ -1098,6 +1098,7 @@ header {
 
    .inicio {
        flex-direction:row-reverse;
+       margin-top: 0rem;
 }
 
 .titulo {
@@ -1140,11 +1141,10 @@ header {
    padding-bottom: 0rem;
    padding-left: 0rem;
    padding-right:5rem;
-   padding-top: 1rem;
 }
 
 .inicio{
-   align-items: center;}
+   align-items: start;}
 
 
 .eslogan2{
@@ -1160,11 +1160,7 @@ header {
   justify-content: center;
   gap: 0.5rem;
 }
-
-video {margin-left: 1rem;}
 }
-
-
 
 /* Carrusel */
 
