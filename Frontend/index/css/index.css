@@ -269,7 +269,7 @@ header {
 .redes-sociales {
    display: flex;
    justify-content: right;
-   height: 3rem;
+   height: 2rem;
    margin-right: 1rem;
    margin-bottom: 2rem;
 }
@@ -278,10 +278,11 @@ header {
 .logo-redes {
    display: flex;
    justify-content: left;
-   height: 3rem;
+   height: auto;
    margin-right: auto;
    margin-left: 2rem;
    margin-bottom: 2rem;
+   align-items: center;
 }
 
 .mascotas img:hover {
@@ -312,6 +313,10 @@ video {
    box-shadow: 5px 5px 15px #7ac6be;
 
 }
+
+.instagram {height: 2rem; margin-right: 1rem;}
+.twitter {height: 2rem; margin-right: 0.9rem;}
+.facebook {height: 2.2rem;}
 /* Fin de Contenido Index Movil */
 
 
@@ -861,17 +866,21 @@ header {
 
 .redes-sociales {
    display: flex;
+   width: 100%;
    justify-content: right;
-   height: 3rem;
-   margin-right: 1rem;
-   margin-bottom: 2rem;
+   align-items: baseline;
+   padding-right: 1rem;
+   padding-top: 1rem;
+ 
 }
+
+footer {  box-shadow: -5px -5px 10px #e2e2e2;}
 
 
 .logo-redes {
    display: flex;
    justify-content: left;
-   height: 3rem;
+   height: 2.3rem;
    margin-right: auto;
    margin-left: 2rem;
    margin-bottom: 2rem;
