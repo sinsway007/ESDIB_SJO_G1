@@ -1,0 +1,179 @@
+body{
+   overflow-x: hidden;
+}
+
+
+h1{
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 1000;
+    font-style: normal;
+}
+
+p{
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    line-height: 1.7;
+    font-style: normal;
+    font-size: 1.1rem;
+}
+
+/* Fin de Tipografias y textos */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    background-color: none;
+}
+
+/* Movil */
+
+/* Navbar*/
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    z-index: 10;
+    box-shadow: 5px 5px 10px #ededed;
+
+
+}
+
+.logo {
+    max-width: 6rem;
+}
+
+.nav-list {
+    list-style-type: none;
+    display: flex;
+    gap: 2rem;
+    padding: 1.3rem;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-animales {  
+    height: 2.5rem;
+    visibility: visible;
+}
+
+.nav-busca { 
+    height: 2.5rem;
+    visibility: visible;
+}
+
+.nav-adopcion { 
+    height: 2.5rem;
+    visibility: visible;
+}
+.nav-adopcion2{
+    visibility: hidden;
+}
+.nav-animales2{
+    visibility: hidden;
+}
+
+.nav-busca2{
+    visibility: hidden;
+}
+
+.abrir-menu,
+.cerrar-menu{
+    display: none;
+}
+
+.desplegable-animales {visibility: hidden;}
+/* Fin de Navbar*/
+
+/* Contenido Adopcion Movil */
+
+.fichas { width: 80%;
+    box-shadow: 5px 5px 10px #ededed;
+}
+
+/* Escritorio */
+
+@media screen and (max-width: 950px) {
+
+    /* Navbar Escritorio */
+    
+    .abrir-menu,
+    .cerrar-menu {
+        display: block;
+        border: 0;
+        font-size: 1.25rem;
+        background-color: transparent;
+        cursor: pointer;
+    }
+
+    .nav {
+        opacity: 0;
+        visibility: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        gap: 1rem;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        padding: 2rem;
+        box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .5);
+        background-color: white;
+    }
+
+    .nav.visible {
+       opacity: 0.9;
+       visibility: visible;
+    }
+    
+    .nav-list {
+        flex-direction: column;
+        align-items: end;
+        color: black;
+        align-items: right;
+        padding: 2rem;
+    }
+
+    .nav-list :hover{
+        color: orange;
+    }
+
+    .nav-adopcion2{
+        visibility:visible;
+    }
+    .nav-animales2{
+        visibility: visible;
+    }
+
+    .nav-busca2{
+        visibility: visible;
+    }
+
+    .nav-animales {  
+        visibility: hidden;
+    }
+
+    .nav-busca { 
+        visibility: hidden;
+    }
+
+    .nav-adopcion { 
+        visibility: hidden;
+    }
+
+        .desplegable-animales {visibility: visible;}
+}
+
+    /* Fin de Navbar Escritorio */
