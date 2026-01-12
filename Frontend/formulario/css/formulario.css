@@ -31,7 +31,6 @@ p{
 /* Movil */
 
 /* Navbar*/
-
 header {
     display: flex;
     align-items: center;
@@ -39,8 +38,7 @@ header {
     padding-left: 2rem;
     padding-right: 2rem;
     z-index: 10;
-    box-shadow: 5px 5px 10px #ededed;
-    margin-bottom: 1rem;
+    box-shadow: 5px 5px 10px #ffffff;
 
 }
 
@@ -94,7 +92,9 @@ header {
 /* Fin de Navbar*/
 
 /* Contenido Adopcion Movil */
-
+main { background-color:#7ac6be0c;
+padding-top: 1rem;
+;}
 .padre{ display: flex;
   justify-content: center; 
   align-items: center;     
@@ -119,11 +119,10 @@ header {
     display: flex;
     width: 100%;
     flex-direction: column;
-    background-color:#fed00247;
+    background-color:#ffffff;
     padding: 2rem;
     border-radius: 20px; 
-    box-shadow: 5px 5px 5px #ededed;
-
+    box-shadow: 0px 0px 10px 7px  #80808030;
 }
 
 
@@ -179,12 +178,24 @@ header {
     }
 
     
-    .encabezado-formulario img{
-    display: flex;
+.encabezado-formulario {display: flex;
     width: 100%;
+    flex-direction: column;
+    justify-content: center;}
+
+ .encabezado-formulario-titulo {display: flex;
+    font-family: "Anton";
+    font-size: 2rem;
+    color: #7ac6be;
+    line-height: 2.3rem;
+    margin-bottom: 1rem;
+    text-align: center;
 }
 
- .encabezado-formulario {display: flex;
+.encabezado-formulario-foto{
+    width:3rem;
+    margin-bottom: 1rem;
+    justify-content: center;
 }
 
     .gato-formulario {
