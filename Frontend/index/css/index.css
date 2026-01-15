@@ -252,7 +252,6 @@ header {
 }
 
 
-
 .busca-familia {
    padding-left: 2rem;
    padding-right: 2rem;
@@ -281,7 +280,7 @@ header {
 .logo-redes {
    display: flex;
    justify-content: left;
-   height: auto;
+   height: 3rem;
    margin-right: auto;
    margin-left: 2rem;
    margin-bottom: 2rem;
