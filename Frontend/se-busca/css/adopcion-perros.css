@@ -223,6 +223,35 @@ border-radius:10px;}
 
 .info-caracteristicas a {color: black;}
 
+.instagram {height: 1rem; margin-right: 1rem;}
+.twitter {height: 1rem; margin-right: 0.9rem;}
+.facebook {height: 1.2rem;}
+
+.item-footer p {font-size: 0.7rem;}
+
+.redes-sociales {
+   display: flex;
+   width: 100%;
+   justify-content: space-between;
+   align-items: center;
+   padding-right: 1rem;
+   padding-top: 1rem;
+   padding-bottom: 1rem;
+   margin-top: 1rem;
+
+ 
+}
+
+footer {  box-shadow: -5px -5px 10px #e2e2e2;}
+
+
+.logo-footer {
+   display: flex;
+   justify-content: left;
+   height: 2.3rem;
+   margin-left: 2rem;
+}
+
 @media (min-width: 600px) {
 .raza-edad-sexo {flex-direction: row;
     gap: 2rem;

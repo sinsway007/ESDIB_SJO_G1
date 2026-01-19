@@ -278,6 +278,36 @@ gap: 1.4rem;}
         border-radius: 50px;
         font-weight: 400;}
 
+.instagram {height: 1rem; margin-right: 1rem;}
+.twitter {height: 1rem; margin-right: 0.9rem;}
+.facebook {height: 1.2rem;}
+
+.item-footer p {font-size: 0.7rem;}
+
+.redes-sociales {
+   display: flex;
+   width: 100%;
+   justify-content: space-between;
+   align-items: center;
+   padding-right: 1rem;
+   padding-top: 1rem;
+   padding-bottom: 1rem;
+   margin-top: 1rem;
+
+ 
+}
+
+footer {  box-shadow: -5px -5px 10px #e2e2e2;}
+
+
+.logo-footer {
+   display: flex;
+   justify-content: left;
+   height: 2.3rem;
+   margin-left: 2rem;
+}
+
+
 /* Fin Contenido Formulario Movil */
 
 

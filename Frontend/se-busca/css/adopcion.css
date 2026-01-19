@@ -146,30 +146,34 @@ header {
     transform: scale(1.03);
 }
 
-footer {
-    margin-top: 4rem;
-}
+.instagram {height: 1rem; margin-right: 1rem;}
+.twitter {height: 1rem; margin-right: 0.9rem;}
+.facebook {height: 1.2rem;}
+
+.item-footer p {font-size: 0.7rem;}
+
 .redes-sociales {
-    display: flex;
-    justify-content: right;
-    height: 3rem;
-    margin-right: 2rem;
+   display: flex;
+   width: 100%;
+   justify-content: space-between;
+   align-items: center;
+   padding-right: 1rem;
+   padding-top: 1rem;
+   padding-bottom: 1rem;
+   margin-top: 1rem;
+
+ 
 }
 
+footer {  box-shadow: -5px -5px 10px #e2e2e2;}
 
-.logo-redes {
+
+.logo-footer {
    display: flex;
    justify-content: left;
-   height: 2.5rem;
-   margin-right: auto;
+   height: 2.3rem;
    margin-left: 2rem;
-   margin-bottom: 2rem;
-   align-items: center;
 }
-
-.instagram {height: 2rem; margin-right: 1rem;}
-.twitter {height: 2rem; margin-right: 0.9rem;}
-.facebook {height: 2.2rem;}
 
 
 
