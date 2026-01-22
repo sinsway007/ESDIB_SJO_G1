@@ -604,6 +604,7 @@ align-content: center;}
    align-items: center;
 align-content: center;
 }
+
 }
 
 
@@ -893,6 +894,8 @@ footer {  box-shadow: -5px -5px 10px #e2e2e2;}
 }
 
 
+
+
 /* Fin de Contenido Index Movil */
 
 
@@ -1172,6 +1175,56 @@ footer {  box-shadow: -5px -5px 10px #e2e2e2;}
   gap: 0.5rem;
 }
 }
+
+
+/*CARLOS AQUIIII ABAJO EDITAR*/ 
+
+@media (min-width: 951px) {
+   .contenedor-mapa{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 95%;
+      gap:2rem;
+      margin-top: 1rem;
+      
+   }
+
+   .texto-mapa{
+      font-size: 1.2rem;
+      padding: 2rem;
+      color: white;
+      margin-left: 1rem;
+      align-items: center;   
+      padding: 2rem;
+      
+   }
+
+   .texto-mapa >h2{
+      color: #fcce14;
+      font-family: "Anton", sans-serif;
+      font-weight: 100;
+      font-size: 4rem;
+   }
+
+   .texto-mapa > p{
+      color: black;
+      
+   }
+
+   .mapa{
+      margin-bottom: 1rem;
+      margin-top: 0.5rem;
+   }
+
+   iframe{
+
+      border-radius: 1rem;
+      box-shadow: 5px 5px 15px #7ac6be;
+   }
+}
+
+
 
 /* Carrusel */
 
