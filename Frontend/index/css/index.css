@@ -7,7 +7,6 @@ body{
 h1{
    text-align: center;
    font-family: "Anton", sans-serif;
-   font-optical-sizing: auto;
    font-weight: 1000;
    font-style: normal;
    font-size: 2rem;
@@ -17,7 +16,6 @@ h1{
 h2 {
    text-align: center;
    font-family: "Montserrat", sans-serif;
-   font-optical-sizing: auto;
    font-weight: 500;
    font-style: normal;
    padding: 1rem;
@@ -34,7 +32,6 @@ h2 {
 p{
    text-align: center;
    font-family: "Montserrat", sans-serif;
-   font-optical-sizing: auto;
    font-weight: 400;
    line-height: 1.7;
    font-style: normal;
@@ -47,7 +44,6 @@ p{
    padding: 0;
    box-sizing: border-box;
    font-family: "Montserrat", sans-serif;
-   background-color: none;
 }
 
 
@@ -193,7 +189,6 @@ header {
 .eslogan2 {
    font-family: "Montserrat", sans-serif;
    font-style: normal;
-   font-weight: 100%;
    font-size: 2.5rem;   
    color: #000000;
    margin: 2rem;
@@ -393,7 +388,6 @@ video {
        flex-direction: column;
        align-items: end;
        color: black;
-       align-items: right;
        padding: 0.5rem;
    }
 
@@ -662,7 +656,6 @@ body{
 h1{
    text-align: center;
    font-family: "Anton", sans-serif;
-   font-optical-sizing: auto;
    font-weight: 1000;
    font-style: normal;
 }
@@ -671,7 +664,6 @@ h1{
 h2 {
    text-align: center;
    font-family: "Montserrat", sans-serif;
-   font-optical-sizing: auto;
    font-weight: 500;
    font-style: normal;
    padding: 1rem;
@@ -688,7 +680,6 @@ h2 {
 p{
    text-align: center;
    font-family: "Montserrat", sans-serif;
-   font-optical-sizing: auto;
    font-weight: 400;
    line-height: 1.7;
    font-style: normal;
@@ -701,7 +692,6 @@ p{
    padding: 0;
    box-sizing: border-box;
    font-family: "Montserrat", sans-serif;
-   background-color: none;
 }
 
 
@@ -847,7 +837,6 @@ header {
 .eslogan2 {
    font-family: "Montserrat", sans-serif;
    font-style: normal;
-   font-weight: 100%;
    font-size: 2.5rem;   
    color: #000000;
    margin: 2rem;
@@ -995,7 +984,6 @@ footer {  box-shadow: -5px -5px 10px #e2e2e2;}
        flex-direction: column;
        align-items: end;
        color: black;
-       align-items: right;
        padding: 0.5rem;
    }
 
